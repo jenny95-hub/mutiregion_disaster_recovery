@@ -14,4 +14,4 @@ The project uses:
 ---
 
 ## 🏗️ Architectural Overview
-![Multi-Region Diagram](images/disaster_recovery)
+![Disaster Recovery](images/disaster_recovery.png)
