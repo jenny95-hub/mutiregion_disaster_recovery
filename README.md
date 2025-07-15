@@ -22,4 +22,23 @@ To design and implement a multi-region disaster recovery solution using AWS serv
 - Route 53 failover routing detects unhealthy endpoints and redirects traffic
 - RDS read replica in Tokyo keeps in sync with Mumbai
 - S3 buckets with cross-region replication keep static data synchronized
+
+## 🚀 How to Deploy
+
+### 🧰 Prerequisites
+- AWS CLI configured
+- Terraform installed
+- GitHub repo set up
+
+### 🏗️ Deployment Steps
+
+```bash
+# Clone the repo
+git clone https://github.com/jenny95-hub/mutiregion_disaster_recovery.git
+cd mutiregion_disaster_recovery
+
+# Initialize Terraform for the environment
+terraform init
+terraform plan
+terraform apply
   
