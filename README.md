@@ -23,14 +23,14 @@ To design and implement a multi-region disaster recovery solution using AWS serv
 - RDS read replica in Tokyo keeps in sync with Mumbai
 - S3 buckets with cross-region replication keep static data synchronized
 
-## 🚀 How to Deploy
+#### 🚀 How to Deploy
 
-### 🧰 Prerequisites
+#### 🧰 Prerequisites
 - AWS CLI configured
 - Terraform installed
 - GitHub repo set up
 
-### 🏗️ Deployment Steps
+##### 🏗️ Deployment Steps
 
 ```bash
 # Clone the repo
@@ -40,9 +40,9 @@ cd mutiregion_disaster_recovery
 # Initialize Terraform for the environment
 terraform init
 terraform plan
-terraform apply
+terraform apply^
 
-## 📄 Implementation Guide
+### 📄 Implementation Guide
 
 You can download and read the full implementation guide here:
 
