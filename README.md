@@ -41,4 +41,10 @@ cd mutiregion_disaster_recovery
 terraform init
 terraform plan
 terraform apply
+
+## 📄 Implementation Guide
+
+You can download and read the full implementation guide here:
+
+[📘 Implementation Steps (Word Document)](Implementation_Steps.docx)
   
