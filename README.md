@@ -46,5 +46,5 @@ terraform apply
 📄 Implementation Guide
 You can download and read the full implementation guide here:
 
-📘 Download disaster_recovery.docx
+[📘 Download disaster_recovery.docx](disaster_recovery.docx)
   
